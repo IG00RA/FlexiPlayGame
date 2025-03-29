@@ -1,0 +1,430 @@
+{
+  "Buttons": {
+    "start": "Štart",
+    "back": "Späť",
+    "main": "Domov",
+    "order": "Objednávka"
+  },
+  "Color": {
+    "blue": "Modrý",
+    "green": "Zelený",
+    "red": "Červený",
+    "yellow": "Žltý"
+  },
+  "ColorCircle": {
+    "blue": "Modrý",
+    "green": "Zelený",
+    "red": "Červený",
+    "yellow": "Žltý"
+  },
+  "Colors": {
+    "blue": "všetky modré tvary",
+    "green": "všetky zelené tvary",
+    "red": "všetky červené tvary",
+    "yellow": "všetky žlté tvary"
+  },
+  "Figures": {
+    "circle": "kruh",
+    "rectangle": "obdĺžnik",
+    "square": "štvorcový",
+    "triangle": "trojuholník"
+  },
+  "MainPage": {
+    "trainingText": "Online tréner FlexiFun Geometry",
+    "min": "minút ",
+    "memory": {
+      "header": "FLEXI-FUN Memory Case",
+      "description": "Rozvíja: Pamäť, koncentráciu pozornosti, sekvenčné myslenie"
+    },
+    "board": {
+      "header": "FLEXI-FUN BASIC BOARD",
+      "description": "Rozvíja: Jemná motorika, vizuálne vnímanie, logické myslenie"
+    },
+    "videoText": "Systém video cvičení FlexiFun Geometry",
+    "question": "Úlohy:",
+    "introduction": {
+      "header": "Zoznámenie s tvarmi",
+      "description": "Rozvíja: Jemná motorika, vizuálne vnímanie, taktilné vnemy",
+      "descriptionFull": "Prvé kroky do sveta geometrie položia základ matematického myslenia. Počas zoznamovania sa s tvarmi sa aktivujú oblasti mozgu zodpovedné za priestorové vnímanie. Je to podobné ako keď sa dieťa učí čítať - najprv písmená, potom slová. Rovnako je to aj tu: najprv základné tvary a potom zložitejšie geometrické pojmy.",
+      "quests": {
+        "first": "* Prezrite si každý tvar na podložke",
+        "second": "* Nájdite zodpovedajúce tvary medzi jednotlivými prvkami",
+        "third": "* Porovnajte tvary: kruh, trojuholník, štvorec",
+        "fourth": "* Diskutujte o vlastnostiach každého tvaru (počet rohov, strany, farba)"
+      }
+    },
+    "color": {
+      "header": "Farebná zhoda",
+      "description": "Rozvíja: Klasifikácia a zraková pamäť",
+      "descriptionFull": "Rozlišovanie farieb nie je len vizuálna zručnosť. Je to rozvoj schopnosti klasifikovať a organizovať informácie. Keď dieťa triedi tvary podľa farieb, učí sa vytvárať systémy a kategórie, čo je základom analytického myslenia.",
+      "quests": {
+        "first": "* Rozložte tvary podľa farieb (červené, žlté, zelené)",
+        "second": "* Nájdite všetky tvary jednej farby",
+        "third": "* Porovnajte tvary rôznych farieb",
+        "fourth": "* Pomenujte farbu každého tvaru na podložke"
+      }
+    },
+    "placing": {
+      "header": "Umiestnenie tvarov",
+      "description": "Rozvíja: Priestorové myslenie a koordinácia pohybov",
+      "descriptionFull": "Správne umiestnenie tvarov rozvíja nielen motoriku, ale aj priestorové myslenie. Je to ako puzzle, kde každý prvok má svoje miesto. Táto činnosť formuje pochopenie príčinných súvislostí a učí dosahovať konkrétne ciele.",
+      "quests": {
+        "first": "* Nájdite správne miesto pre každý tvar na podložke",
+        "second": "* Trénujte presnosť pohybov pri umiestňovaní",
+        "third": ""
+      }
+    },
+    "combinations": {
+      "header": "Kombinácie a postupnosti",
+      "description": "Rozvíja: Logické myslenie a chápanie zákonitostí",
+      "descriptionFull": "Vytváranie postupností je prvým krokom k pochopeniu matematických zákonitostí. Je to ako hudba, kde je dôležitý rytmus a poriadok. Keď dieťa vytvára postupnosti, rozvíja logické myslenie a schopnosť predvídať ďalšie kroky.",
+      "quests": {
+        "first": "* Vytvorte postupnosť tvarov podľa farby (červená-modrá-červená-modrá)",
+        "second": "* Zostavte rad tvarov podľa veľkosti (od najmenšieho po najväčší)",
+        "third": "* Zostavte vzor striedaním rôznych tvarov"
+      }
+    }
+  },
+  "MemoryCasePage": {
+    "header": "TRÉNER Memory Case",
+    "headerText": "Efektívny tréner pre rozvoj pamäti! Od jednoduchých po zložité postupnosti",
+    "cardHeader": "Tréning pamäti",
+    "cardText": "Rozvíja: Vizuálnu pamäť a zlepšuje koncentráciu pozornosti"
+  },
+  "MemoryCaseGame": {
+    "header": "  Memory Case TRÉNER",
+    "headerText": "Tréning pamäti",
+    "department": "Priečinok",
+    "buttons": {
+      "timer": "Časovač - ",
+      "record": "Predchádzajúci rekord: ",
+      "start": "Začať",
+      "done": "Hotovo",
+      "yes": "Áno",
+      "no": "Nie",
+      "stop": "Stop",
+      "time": "Celkový čas - "
+    },
+    "modal": {
+      "buttons": {
+        "ok": "ok"
+      },
+      "tip": {
+        "header": "Nápoveda",
+        "text": "Gratulujeme! Pripravte si pamäťové puzdro a tvary. Položte ich pred seba a potom kliknite na tlačidlo „ok“",
+        "textLarge": "Po spustení trénera a stlačení tlačidla “začať” uvidíte jednoduchú postupnosť, tvary sa budú objavovať postupne! Po každom zobrazení a zmiznutí tvaru si ho skúste zapamätať a položiť do príslušného priečinku a ďalej postupujte podľa inštrukcií. Za každé úspešné zapamätanie postupností získate body, pomocou ktorých môžete postúpiť na vyššiu úroveň. Každá úroveň je náročnejšia než predchádzajúca."
+      },
+      "audit": {
+        "header": "Kontrola",
+        "text": "Teraz sa na obrazovke zobrazí správna postupnosť, stlačte “Áno” alebo “Nie” podľa toho, či ste uhádli alebo nie.",
+        "takePoint": "Výborne, získali ste 1 bod, pokračujeme?",
+        "tryAgain": "Nesprávne! Skúsme to ešte raz",
+        "nextLevel": "Výborne! Ste pripravení na ďalšiu úroveň!"
+      }
+    }
+  },
+  "BasicBoardPage": {
+    "header": "TRÉNER FLEXI-FUN BASIC BOARD",
+    "headerText": "Inovatívny tréner pre rozvoj motoriky a logického myslenia. ",
+    "headerTextSecond": "Dva režimy cvičení:",
+    "cardHeader": "Hľadanie tvarov",
+    "cardText": "Rozvíja presnosť pohybov, koordináciu a rozpoznávanie geometrických tvarov",
+    "secondCardHeader": "Rýchle hľadanie",
+    "secondCardText": "Zlepšuje koordináciu pohybov a rozvíja rýchlosť reakcie"
+  },
+  "BasicBoardGame": {
+    "header": " BASIC BOARD TRÉNER",
+    "headerText": "HĽADANIE TVAROV",
+    "previewText": "Pripravte dosku a všetky tvary! Pripravení? Začnime!",
+    "gameTextFirst": "Nájdite ",
+    "gameTextSecond": " a umiestnite ho na fyzickú dosku",
+    "continueText": "Výborne! Pokračujeme?",
+    "newGameText": "Zozbierali ste všetky tvary, chcete začať znova?",
+    "buttons": {
+      "timer": "Čas vykonania - ",
+      "record": "Predchádzajúci rekord:  ",
+      "start": "Začať",
+      "done": "Hotovo",
+      "yes": "Áno",
+      "no": "Nie",
+      "stop": "Stop",
+      "time": "Celkový čas - "
+    },
+    "modal": {
+      "buttons": {
+        "ok": "ok"
+      },
+      "tip": {
+        "header": "Nápoveda",
+        "text": {
+          "first": "1. Pripravte fyzickú súpravu",
+          "second": "2. Rozložte všetky dieliky tak, aby ich dieťa mohlo pohodlne zbierať",
+          "third": "3. Dodržiavajte pokyny trénera v hornom riadku"
+        }
+      }
+    }
+  },
+  "BasicBoardSpeedGame": {
+    "header": " BASIC BOARD TRÉNER",
+    "headerText": "RÝCHLE HĽADANIE",
+    "previewText": "Pripravte sa na rýchlu úlohu! ",
+    "previewTextSecond": "Musíte nájsť tvary čo najrýchlejšie!",
+    "gameTextLevel": "Úroveň ",
+    "gameTextFirst": "Nájdite ",
+    "gameTextFindPair": "pár - ",
+    "gameTextSecond": " a umiestnite ho na fyzickú dosku",
+    "continueText": "Výborne! Pokračujeme?",
+    "timeOutTextText": "Čas vypršal, skúsime to znova?",
+    "newGameText": "Pripravte dosku a všetky tvary! Pripravení? Začnime!",
+    "buttons": {
+      "timer": "Časovač - ",
+      "record": "Predchádzajúci rekord: ",
+      "start": "Začať",
+      "done": "Hotovo",
+      "stop": "Stop",
+      "time": "Celkový čas - "
+    },
+    "modal": {
+      "buttons": {
+        "ok": "ok"
+      },
+      "tip": {
+        "header": "Nápoveda",
+        "text": {
+          "first": "Pripravte fyzickú súpravu, rozložte všetky dieliky tak, aby ich dieťa mohlo pohodlne zbierať.",
+          "second": "Dodržiavajte pokyny trénera v hornom riadku"
+        }
+      },
+      "nextLevel": {
+        "first": "Výborne! Ste pripravení na ďalšiu úroveň!",
+        "second": "Vyčistite tabuľu a pripravte sa! ",
+        "third": "(Aby ste úlohu sťažili, môžete všetky čísla pomiešať, aby ich dieťa nemohlo tak ľahko nájsť.)"
+      }
+    }
+  },
+  "Hero": {
+    "price": "65€",
+    "priceSecond": "20€",
+    "text": "FlexiFun Geometry: Prvé kroky do sveta logiky",
+    "header": "Vývojová sada pre deti od 1 do 3 rokov ",
+    "headerDesk": "Prístup k interaktívnemu online trenažéru",
+    "par": "Predstavte si: zatiaľ čo sa vaše dieťa hrá s pestrofarebnými geometrickými tvarmi, jeho mozog intenzívne trénuje! Každý dotyk tvarov, každý pokus nájsť správne miesto rozvíja mozog",
+    "items": {
+      "first": "Logické myslenie prostredníctvom triedenia tvarov a farieb",
+      "second": "Priestorové vnímanie prostredníctvom práce s rozmermi",
+      "third": "Jemná motorika prostredníctvom presných pohybov",
+      "fourth": "Pozornosť a pamäť prostredníctvom postupných činností"
+    }
+  },
+  "Footer": {
+    "policy": "Zmluva s používateľom",
+    "policyLink": "/privacy-policy",
+    "menu": {
+      "reasons": "Čo vyvíja súprava",
+      "about": "Ako to funguje",
+      "included": "Vývojové cvičenia",
+      "feedback": "Recenzie"
+    }
+  },
+  "About": {
+    "header": "3 jednoduché kroky k rýchlemu vývoju",
+    "secondHeader": "Čo vstúpi do súpravy",
+    "items": {
+      "first": {
+        "header": "Získajte súpravu",
+        "textFirst": "Farebná súprava s geometrickými tvarmi a základňou, na ktorú ich môžete umiestniť",
+        "textSecond": "FlexiFun Memory Case na trénovanie pamäte a pozornosti"
+      },
+      "second": {
+        "header": "ВNaskenujte QR kód na karte",
+        "headerAdd": ", ktorá je súčasťou súpravy",
+        "textMob": "Získajte okamžitý prístup k systému vývojových cvičení navrhnutých detskými psychológmi.",
+        "textFirst": "Získajte okamžitý prístup k systému vývojových cvičení navrhnutých detskými psychológmi.",
+        "textSecond": "Prístup k interaktívnemu online simulátoru "
+      },
+      "third": {
+        "header": " Vykonávajte cvičenia a sledujte svoj pokrok",
+        "headerAdd": " v online trenažéri",
+        "text": "Len 15 minút denne zábavných aktivít s geometrickými tvarmi stačí na to, aby ste už za dva týždne videli merateľný pokrok."
+      }
+    },
+    "containers": {
+      "geometry": "Geometrické tvary FlexiFun Geometry a doska Basic Board pre rozvoj motoriky a logiky",
+      "memory": "Memory Case pre tréning pamäti a pozornosti",
+      "game": "Prístup k špeciálne navrhnutým cvičeniam a online trenažéru prostredníctvom QR kódu"
+    }
+  },
+  "Important": {
+    "text": "Každá činnosť je malým objavom! Hrou s geometrickými tvarmi sa vaše dieťa učí:",
+    "header": "Integrovaný rozvoj prostredníctvom hry",
+    "items": {
+      "first": {
+        "head": "Logické myslenie",
+        "text": {
+          "first": "Analyzovať tvary a ich vlastnosti",
+          "second": "Nachádzať vzory v postupnostiach",
+          "third": "Chápať vzťahy príčiny a následku",
+          "fourth": "Rozhodovať sa na základe analýz"
+        }
+      },
+      "second": {
+        "head": "Jemná motorika:",
+        "text": {
+          "first": "Koordinácia prstov rúk pri príprave na písanie",
+          "second": "Uchopovanie a premiestňovanie predmetov rôznych tvarov",
+          "third": "Hmatové vnímanie textúr a tvarov",
+          "fourth": "Kontrola jemných pohybov"
+        }
+      },
+      "third": {
+        "head": "Priestorové myslenie",
+        "text": {
+          "first": "Pochopiť vzájomné usporiadanie predmetov",
+          "second": "Rozlišovať veľkosti a proporcie",
+          "third": "Rozvíjať predstavivosť",
+          "fourth": "Zlepšiť orientáciu v priestore"
+        }
+      },
+      "fourth": {
+        "head": "Školenie v pamäti ta pozornosť",
+        "text": {
+          "first": "Spomienky sekvencie",
+          "second": "Rozvoj koncentrácie",
+          "third": "Robot s farbou a forme",
+          "fourth": "Adaptívny zložitosť zavdan"
+        }
+      }
+    }
+  },
+  "Included": {
+    "header": "Fascinujúce cvičenia pre rozvoj",
+    "text": "Popis cvičení",
+    "items": {
+      "first": "Naučte sa rozlišovať farby a vytvárať vzory. Dieťa si zapamätaním a reprodukovaním sekvencií rozvíja pamäť a pozornosť.",
+      "second": "Skúmanie vlastností rôznych tvarov. Od jednoduchých po zložité: kruh, trojuholník, štvorec a ich kombinácie.",
+      "third": "Porovnávanie a porovnávanie rôznych tvarov, učenie sa chápať ich vlastnosti a nachádzať vzory.",
+      "fourth": "Skúmanie pojmov „väčšie - menšie“, „vyššie - nižšie“, rozvíjanie priestorového myslenia."
+    }
+  },
+  "Quality": {
+    "header": "Prečo si rodičia vyberajú FlexiFun Geometry",
+    "items": {
+      "first": "Prístup k cvičeniam pomocou kódu QR",
+      "second": "Na dosiahnutie výsledkov stačí 10 minút cvičenia denne",
+      "third": "Bezpečné materiály"
+    }
+  },
+
+  "Feedback": {
+    "header": "Recenzier",
+    "items": {
+      "first": {
+        "head": "otec dvojročného Tomasza",
+        "span": "Petr",
+        "text": "Skvelá súprava na rozvoj logiky! Môj syn sa nielen naučil rozlišovať tvary, ale stal sa aj usilovnejším. Každá lekcia je pre neho ako nový objav"
+      },
+      "second": {
+        "head": "mama 3-ročnej Niny",
+        "span": "Daniela",
+        "text": "Moja dcéra predtým nemala záujem o vzdelávacie hračky, ale túto súpravu si zamilovala od prvého dňa. Jasné farby a jednoduché tvary sú veľmi atraktívne."
+      },
+      "third": {
+        "head": "mama 2-ročného Jakuba",
+        "span": "Martina",
+        "text": "Výborná príprava do školy! Môj syn sa naučil lepšie sústrediť a začal sa zaujímať o geometriu. Teraz rozpoznáva známe tvary aj v predmetoch okolo seba."
+      },
+      "fourth": {
+        "head": "otec dvojičiek vo veku 2 roka:",
+        "span": "Michal",
+        "text": "Je to hračka, ktorá sa dá použiť v praxi: „Kúpil som pre svoje dvojčatá hneď dve sady. Deti sa nielen hrajú samostatne, ale učia sa aj vzájomnej interakcii tým, že si navzájom pomáhajú s figúrkami."
+      },
+      "fifth": {
+        "head": "mama 4-ročnej Kristíny",
+        "span": "Elena",
+        "text": "Veľmi sa mi páči kvalita spracovania - všetky detaily sú príjemné na dotyk, krásne farby. A hlavné je, že to nie je len hračka, ale plnohodnotná vývojová súprava."
+      },
+      "sixth": {
+        "head": "mama dvojročného Davida",
+        "span": "Veronika",
+        "text": "Všimla som si, že po tom, čo sa môj syn začal hrať so súpravou, zlepšil sa v iných logických úlohách. Zlepšilo sa najmä jeho chápanie tvarov a veľkostí."
+      },
+      "seventh": {
+        "head": "otec 3-ročnej Emmy",
+        "span": "Lukáš",
+        "text": "Výborne sa hodí ako na individuálnu prácu, tak aj na skupinové aktivity. Deti rýchlo zvládajú základné geometrické pojmy."
+      },
+      "eighth": {
+        "head": "mama trojročnej Sofie",
+        "span": "Maria",
+        "text": "Vidím, ako sa zlepšila koordinácia pohybov mojej dcéry. Obzvlášť ma teší, že Sofia si sama pýta, aby si vytiahla geometrické obrazce a precvičovala ich"
+      }
+    }
+  },
+
+  "Questions": {
+    "header": "FAQ",
+    "items": {
+      "first": {
+        "head": "Čo je Memory Case?",
+        "text": "Memory Case je špeciálny kufrík so 4 očíslovanými priehradkami, určený na tréning pamäti, pozornosti a sekvenčného myslenia u detí. Používa sa spolu s online trénerom na vykonávanie cvičení zameraných na zapamätanie si."
+      },
+      "second": {
+        "head": "Ako funguje online školiteľ?",
+        "text": "Online tréner je dostupný prostredníctvom QR kódu, ktorý je súčasťou súpravy. Ponúka sériu cvičení rôznej úrovne náročnosti na rozvoj logiky, pamäti a motoriky. Tréner zobrazuje sekvencie farieb a tvarov, ktoré dieťa musí zopakovať pomocou fyzických tvarov."
+      },
+      "third": {
+        "head": "Pre aký vek je súprava vhodná?",
+        "text": "Súprava je navrhnutá pre deti od 3 do 6 rokov. V tomto veku sa aktívne rozvíja logické myslenie a jemná motorika, preto sú cvičenia obzvlášť efektívne."
+      },
+      "fourth": {
+        "head": "Koľko času je potrebné venovať lekciám?",
+        "text": "Odporúčame trénovať 15 minút denne. To stačí na rozvoj zručností bez únavy dieťaťa."
+      },
+      "fifth": {
+        "head": "Je súprava bezpečná?",
+        "text": "Absolútne! Súprava je vyrobená z biologicky rozložiteľného PLA plastu, ktorý je vytvorený z prírodných potravinových zložiek. Tento materiál je úplne bezpečný pre deti, neobsahuje škodlivé látky. Všetky prvky súpravy majú zaoblené hrany a bezpečné rozmery. Zvláštnosťou tohto materiálu je, že sa úplne rozloží za 6-7 rokov bez zanechania škodlivých stôp v životnom prostredí, čo robí hračku nielen užitočnou pre dieťa, ale aj priateľskou k prírode."
+      },
+      "sixth": {
+        "head": "Potrebujú rodičia pomoc?",
+        "text": "V počiatočnej fáze odporúčame trénovať spolu s dieťaťom. Po zvládnutí základných cvičení deti zvyčajne hrajú samostatne."
+      },
+      "seventh": {
+        "head": "Ako zistím, či dieťa robí cvičenia správne?",
+        "text": "Každé cvičenie má jasný výsledok - tvar buď pasuje do základne alebo nie. To pomáha dieťaťu samostatne kontrolovať správnosť svojich akcií. Online tréner obsahuje systém tipov a spätnej väzby."
+      },
+      "eighth": {
+        "head": "Aký je správny spôsob uloženia súpravy?",
+        "text": "Po tréningu odporúčame uložiť všetky prvky do krabice. Skladujte na suchom mieste pri izbovej teplote, vyhnite sa priamemu slnečnému žiareniu."
+      },
+      "ninth": {
+        "head": "Kto je výrobcom?",
+        "text": "Výrobcom súpravy je spoločnosť FlexiFun (Slovensko), ktorá sa špecializuje na výrobu vzdelávacích hračiek pre deti"
+      }
+    }
+  },
+  "Form": {
+    "header": "Formulár žiadosti",
+    "ok": "Formulár bol úspešne odoslaný!",
+    "errors": {
+      "nameRequired": "Vyžaduje sa meno",
+      "phoneRequired": "Vyžaduje sa telefónne číslo",
+      "communicationRequired": "Vyberte spôsob komunikácie",
+      "nickRequired": "Priezvisko je povinné",
+      "sendError": "Formulár sa nepodarilo odoslať, skúste to znova!",
+      "validError": "Vyplňte prosím všetky povinné polia!"
+    },
+    "form": {
+      "namePlaceHolder": "Názov",
+      "nickPlaceHolder": "Priezvisko",
+      "priceText": "Počet súprav",
+      "price": 20,
+      "priceValue": "€",
+      "socialPar": "Spôsob komunikácie",
+      "phone": "Phone number"
+    }
+  },
+  "Confirm": {
+    "header": "Ďakujeme, že ste si objednali sadu FlexiFun Geometry!",
+    "text": "Čoskoro vás budeme kontaktovať prostredníctvom vami zvoleného spôsobu komunikácie. Už čoskoro vaše dieťa urobí prvé kroky do sveta logiky, naučí sa rozlišovať tvary a farby a rozvíjať priestorové myslenie prostredníctvom vzrušujúcej hry!"
+  }
+}

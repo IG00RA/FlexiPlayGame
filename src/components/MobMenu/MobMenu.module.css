@@ -1,0 +1,105 @@
+.mobile_wrap {
+  padding: 40px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transform: scaleY(0);
+  transform-origin: top;
+  opacity: 0;
+  background: var(--main_gradient);
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+  z-index: 2;
+}
+
+.mobile_menu_open {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.burger_menu {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.btn_wrap {
+  & > button {
+    color: #5390ec;
+    background: var(--background);
+    margin: 0;
+  }
+}
+
+.logo_wrap {
+  margin-bottom: 35px;
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &:hover {
+    filter: drop-shadow(0px 2px 5px #1c16631a)
+      drop-shadow(0px 9px 20px #1c16631f) drop-shadow(0px 16px 20px #1c16630d)
+      drop-shadow(0px 37px 15px #1c166303) drop-shadow(0px 57px 16px #1c166300);
+    transform: scale(1.05);
+  }
+}
+
+.menu {
+  color: var(--main_text_color);
+  margin-bottom: 16px;
+  font-size: var(--fs_medium);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.nav {
+  margin-bottom: 40px;
+  & li {
+    margin-bottom: 13px;
+
+    & a {
+      font-size: var(--fs_medium);
+      font-weight: 500;
+      line-height: 1.2;
+      color: var(--second_text_color);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+    &:hover {
+      filter: drop-shadow(0px 2px 5px #1c16631a)
+        drop-shadow(0px 9px 20px #1c16631f) drop-shadow(0px 16px 20px #1c16630d)
+        drop-shadow(0px 37px 15px #1c166303)
+        drop-shadow(0px 57px 16px #1c166300);
+      transform: scale(1.05);
+    }
+  }
+}
+
+.main_button {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  border-radius: 11px;
+  background: var(--main_gradient);
+  justify-content: center;
+  align-items: center;
+  color: var(--foreground);
+  font-size: var(--fs_xsmall);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125.5%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 2px 5px #1c16631a)
+      drop-shadow(0px 9px 20px #1c16631f) drop-shadow(0px 16px 20px #1c16630d)
+      drop-shadow(0px 37px 15px #1c166303) drop-shadow(0px 57px 16px #1c166300);
+    transform: scale(1.01);
+  }
+}

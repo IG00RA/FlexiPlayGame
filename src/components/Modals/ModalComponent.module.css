@@ -1,0 +1,53 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 90vh;
+  overflow-y: auto;
+  margin: 0 auto;
+  width: 91.1vw;
+
+  @media (min-width: 800px) {
+    max-width: var(--tablet);
+  }
+
+  @media (min-width: 1024px) {
+    max-width: var(--container);
+  }
+
+  @media (min-width: 1448px) {
+    max-width: var(--desktop);
+  }
+}
+
+.overlay {
+  background: var(--modal_overlay);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.close_btn {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+
+  &:hover,
+  &:focus {
+    .close_icon {
+      fill: var(--main_blue);
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.close_icon {
+  transition: fill 0.3s ease, transform 0.3s ease;
+}

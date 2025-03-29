@@ -1,0 +1,15 @@
+.main {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 40px 0;
+
+  @media (min-width: 1024px) {
+    padding: 65px 0;
+  }
+
+  @media (min-width: 1448px) {
+    padding: 150px 0px 85px;
+    max-width: var(--desktop);
+    margin: 0 auto;
+  }
+}
