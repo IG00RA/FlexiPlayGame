@@ -62,7 +62,7 @@ export const generateMetadata = async ({
       description: metadataValues.description,
       images: [
         {
-          url: '/assets/opengraph-image.png',
+          url: '/assets/opengraph-image.jpg',
           width: 1200,
           height: 630,
           alt: metadataValues.title,
@@ -75,7 +75,7 @@ export const generateMetadata = async ({
       type: 'website',
       images: [
         {
-          url: '/assets/opengraph-image.png',
+          url: '/assets/opengraph-image.jpg',
           width: 1200,
           height: 630,
           alt: metadataValues.title,

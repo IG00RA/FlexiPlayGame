@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 function getLocaleFromRequest(request: NextRequest) {
   const acceptLanguage = request.headers.get('accept-language') || '';
-  const country = request.headers.get('x-country-code') || 'UA';
+  const country = request.headers.get('x-country-code') || 'UA'; // Отримуємо код країни
   console.log('country:', country, 'acceptLanguage:', acceptLanguage);
 
   if (country === 'SK') return 'sk';
@@ -20,7 +20,9 @@ function getLocaleFromRequest(request: NextRequest) {
   return 'uk';
 }
 
-export function middleware(request: NextRequest) {
+const intlMiddleware = createMiddleware(routing);
+
+export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   console.log('pathname:', pathname);
 
@@ -30,16 +32,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(`/${locale}`, request.url));
   }
 
-  const intlMiddleware = createMiddleware(routing);
   return intlMiddleware(request);
 }
 
 export const config = {
   matcher: ['/', '/(uk|sk)/:path*'],
 };
-
-export default createMiddleware({
-  ...routing,
-  defaultLocale: 'uk',
-  locales: ['uk', 'sk'],
-});
