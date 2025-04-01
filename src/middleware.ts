@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 function getLocaleFromRequest(request: NextRequest) {
   const acceptLanguage = request.headers.get('accept-language') || '';
   const country = request.headers.get('x-country-code');
-  console.log('country:', country, 'acceptLanguage:', acceptLanguage);
+  console.log('country:', country);
 
   if (country === 'SK') return 'sk';
   if (country === 'UA') return 'uk';
