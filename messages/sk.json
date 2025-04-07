@@ -32,6 +32,7 @@
   "MainPage": {
     "trainingText": "Online tréner FlexiFun Geometry",
     "min": "minút ",
+    "videoPlay": "Kliknutím zobrazíte recenziu",
     "memory": {
       "header": "FLEXI-FUN Memory Case",
       "description": "Rozvíja: Pamäť, koncentráciu pozornosti, sekvenčné myslenie"

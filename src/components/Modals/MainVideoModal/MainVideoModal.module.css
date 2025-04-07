@@ -15,11 +15,11 @@
 }
 
 .image_wrapper {
+  position: relative;
   background: rgba(150, 150, 147, 0.4);
   width: 100%;
   height: auto;
   aspect-ratio: 1/1;
-  pointer-events: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,30 @@
   }
 }
 
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  animation: spin 1s linear infinite; /* Додаємо анімацію обертання */
+}
+
+/* Визначаємо анімацію */
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg); /* Початкове положення */
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg); /* Повний оберт */
+  }
+}
 @keyframes blink {
   0%,
   100% {
@@ -53,6 +77,32 @@
   &:hover {
     border: 0.72px solid #5390ec;
   }
+}
+
+.play_text {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125.5%;
+  letter-spacing: 0.72px;
+  text-align: center;
+}
+
+.play_wrapper_main {
+  z-index: 1;
+  background-color: #96969366;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .play_icon {

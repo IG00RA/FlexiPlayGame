@@ -32,6 +32,7 @@
   "MainPage": {
     "trainingText": "Онлайн тренажер FlexiFun Geometry",
     "min": "хвилин",
+    "videoPlay": "Натисніть, щоб переглянути огляд",
     "question": "Завдання:",
     "memory": {
       "header": "FLEXI-FUN Memory Case",
