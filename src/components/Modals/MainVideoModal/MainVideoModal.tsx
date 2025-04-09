@@ -12,14 +12,10 @@ interface ModalProps {
 }
 
 const videoLinks: { [key: string]: string } = {
-  'MainPage.introduction.header':
-    'https://www.dropbox.com/scl/fi/x1pwabvnjkulwlbfh9toc/Geometry.mov?rlkey=icuk2c835wte0ay6h5ppd9e6u&st=k9w5ssjn&dl=1',
-  'MainPage.color.header':
-    'https://www.dropbox.com/scl/fi/3qywiex2jalbb6q98xi7a/Geometry-i-i-i-i.mov?rlkey=8bqhrh8xaxgkzom8kcdxt0al5&st=lzoa94h1&dl=1',
-  'MainPage.placing.header':
-    'https://www.dropbox.com/scl/fi/seiznoomqe7skuqi6xgnu/Geometry-i-i.mov?rlkey=5s0cl3hcssryzlsbsuo6h2tmg&st=ldhb7dtn&dl=1',
-  'MainPage.combinations.header':
-    'https://www.dropbox.com/scl/fi/fqvrsctidcqeb6j5vqd1f/Geometry.mov?rlkey=mbjyc4y3v5tunwcnwwjqr1qg7&st=rlgw93rt&dl=1',
+  'MainPage.introduction.header': '/assets/forms.webm',
+  'MainPage.color.header': '/assets/colors.webm',
+  'MainPage.placing.header': '/assets/figures.webm',
+  'MainPage.combinations.header': '/assets/combinations.webm',
 };
 
 export default function MainVideoModal({ onClose, item }: ModalProps) {
